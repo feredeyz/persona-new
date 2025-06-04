@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'persona.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'persona',
-        'USER': 'persona',
-        'PASSWORD': 'd6aCnB4xVpa2*d~pba%P',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'yourname',
+        'USER': 'youruser',
+        'PASSWORD': 'yourpassword',
+        'HOST': 'yourhost',
+        'PORT': 'yourport',
         'OPTIONS': {
             'server_side_binding': True,
         }
