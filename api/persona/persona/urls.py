@@ -22,6 +22,7 @@ urlpatterns = [
     path('user/signup/', views.UserSignUpView.as_view(), name='signup'),
     path('user/login/', views.UserLoginView.as_view(), name='login'),
     path('user/', views.AllUsersView.as_view(), name='users'),
+    path('course/', views.AllCoursesView.as_view(), name='courses'),
     path('course/new/', views.CreateCourseView.as_view(), name='new_course'),
     path('course/<int:pk>', views.RUDCourseView.as_view(), name='rud_course')
 ]
