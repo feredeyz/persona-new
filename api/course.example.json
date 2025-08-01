@@ -1,0 +1,14 @@
+{
+    "name": "Course Name",
+    "description": "Course Description",
+    "tags": ["tag1", "tag2"],
+    "lessons": [
+        {
+            "title": "Lesson 1",
+            "blocks": [
+                {"type": "text", "content": "Content 1"},
+                {"type": "text", "content": "Content 2"}
+            ]
+        }
+    ]
+}
